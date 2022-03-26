@@ -22,7 +22,7 @@ class AddBusinessCardActivity : AppCompatActivity() {
         setContentView(binding.root)
         insertListeners()
     }
-
+    
     private fun insertListeners() {
         binding.btnConfirm.setOnClickListener {
             val businessCard = BusinessCard(
